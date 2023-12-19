@@ -42,7 +42,7 @@ clearform ();
 else{
   inputname.style.border="none";
   inputurl.style.border="none";
-alert("aaa");
+alert("Site name must contain at least 3 characters Site URL must be a valid one");
 
 }
 
