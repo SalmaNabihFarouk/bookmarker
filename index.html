@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <head> 
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+ 
+  
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+       
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+   <div class="text-center py-4">
+    <h1 class="fw-semibold  fst-italic display-5  ">Bookmarker</h1>
+</div>
+
+  
+  <label for="name" class="mb-1 fw-bolder fs-5"> Site Name</label>
+  <input type="text" class="form-control mb-2" id="name" oninput="validationname()">
+  <label for="url" class="mb-1 fw-bolder fs-5">Site URL</label>
+  <input class="form-control mb-2 " oninput="validationurl()" id="url">
+  <div class="text-center">
+    <button onclick="add()" class=" btn btn-danger  px-lg-5 ">submit</button></div>
+  
+  <div class="my-2">
+      <table class="table ">
+  
+           <thead>
+              <th>Index	</th>
+              <th>Website Name</th>
+              <th>Visit</th>
+              <th>Delete</th>
+    
+          </thead>
+      
+      <tbody id="tablebody">
+       
+      
+      </tbody> 
+      </table>
+  </div>
+  
+
+  
+  
+  
+  
+  
+  </div>
+
+
+    <script src="main.js"> </script>
+</body>
+
+    </html>
